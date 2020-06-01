@@ -1,0 +1,1 @@
+cmd_/media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab3/task1/lkm.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab3/task1/lkm.ko /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab3/task1/lkm.o /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab3/task1/lkm.mod.o ;  true

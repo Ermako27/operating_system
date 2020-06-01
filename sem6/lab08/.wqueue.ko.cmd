@@ -1,0 +1,1 @@
+cmd_/media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab08/wqueue.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab08/wqueue.ko /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab08/wqueue.o /media/ermak/94B2DAA4B2DA8A5E/OS/sem6/lab08/wqueue.mod.o ;  true
